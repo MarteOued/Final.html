@@ -190,209 +190,24 @@
 
     <!-- Partie 4: Les boutons réseaux sociaux, Section Films --> 
     <section>
-
-        <div class="container mt-5">
-            <h2  style="font-family: 'Algerian', sans-serif; font-size: 50px; color: white; text-shadow: 3px 3px 5px rgb(255, 245, 245); padding: 20px 20px; border-radius: 10px; display: inline-block;">
-                <span style="color: rgb(7, 7, 7);">Les Hits du</span> <span style="color: rgb(67, 27, 248);">Grand Écran 🍿</span>
-            </h2>
-
-            <!-- Section avec les boutons fixes et les films à droite -->
-            <div class="social-section">
-                <!-- Conteneur pour les boutons fixés et les films à droite -->
-                <div class="d-flex">
-                    <!-- Section des boutons -->
-                    <div class="social-buttons">
-                        <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
-                        <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
-                        <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
-                        <a href="#" class="social-btn google"><i class="fab fa-google"></i> Google</a>
-                    </div>
-        
-                    <!-- Section des films alignés à droite des boutons -->
-                    <div class="films-section">
-                        <div class="row d-flex justify-content-start mt-4">
-                            <!-- Film 1 -->
-                            <div class="col-md-2 mb-4">
-                                <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal1">
-                                    <img src="https://th.bing.com/th/id/OIP.I7Pt5K7mtwLGIiaGXzttigAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="Sweethome">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">Sweethome</h5>
-                                        <p>2024 - Drame Coréen</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <!-- Film 2 -->
-                            <div class="col-md-2 mb-4">
-                                <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal2">
-                                    <img src="https://image.tmdb.org/t/p/original/uFXEoVPENgKJrkxFWlOhNMDwlEk.jpg" class="card-img-top" alt="Alice in Borderland">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">Alice in Borderland</h5>
-                                        <p>2021 - Action & Aventure</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <!-- Film 3 -->
-                            <div class="col-md-2 mb-4">
-                                <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal3">
-                                    <img src="https://media.senscritique.com/media/000019087799/source_big/Code_8.jpg" class="card-img-top" alt="Code 8">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">Code 8</h5>
-                                        <p>2019 - Thriller</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <!-- Film 4 -->
-                            <div class="col-md-2 mb-4">
-                                <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal4">
-                                    <img src="https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" class="card-img-top" alt="Lucifer">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">Lucifer</h5>
-                                        <p>2018 - Fantastique</p>
-                                    </div>
-                                </div>
-                            </div>
-        
-                            <!-- Film 5 -->
-                            <div class="col-md-2 mb-4">
-                                <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal5">
-                                    <img src="https://www.themoviedb.org/t/p/original/inong8C18HmwnKqhzAyPBlOYeLU.jpg" class="card-img-top" alt="Jumanji">
-                                    <div class="card-body text-center">
-                                        <h5 class="card-title">Jumanji</h5>
-                                        <p>1995 - Aventure</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Modals des films  -->
-         <!-- Modal Film 1 -->
-         <div class="modal fade" id="filmModal1" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Sweethome</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PT34ciKiMB4?si=jWk-Gy8RG8c-65Av" allowfullscreen></iframe>
-                        <p><strong>Réalisateur:</strong> Lee Eung-bok</p>
-                        <p><strong>Genre:</strong> Drame, Horreur</p>
-                        <p><strong>Acteurs:</strong> Song Kang, Lee Jin-wook</p>
-                        <p><strong>Description:</strong> Une apocalypse transforme les humains en monstres...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Film 2 -->
-        <div class="modal fade" id="filmModal2" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Alice in Borderland</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/49_44FFKZ1M" allowfullscreen></iframe>
-                        <p><strong>Réalisateur:</strong> Shinsuke Sato</p>
-                        <p><strong>Genre:</strong> Action, Science-fiction</p>
-                        <p><strong>Acteurs:</strong> Kento Yamazaki, Tao Tsuchiya</p>
-                        <p><strong>Description:</strong> Des jeunes sont piégés dans un Tokyo alternatif...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Film 3 -->
-        <div class="modal fade" id="filmModal3" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Code 8</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PrX1JJ5dduA?si=rVGGisxUESLN3oZO" allowfullscreen></iframe>
-                        <p><strong>Réalisateur:</strong> Jeff Chan</p>
-                        <p><strong>Genre:</strong> Thriller, Science-fiction</p>
-                        <p><strong>Acteurs:</strong> Robbie Amell, Stephen Amell</p>
-                        <p><strong>Description:</strong> Un jeune homme doté de pouvoirs tente de survivre...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Modal Film 4 (Lucifer) -->
-        <div class="modal fade" id="filmModal4" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Lucifer</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ueMwVGBwqRo?si=W3Sx3CgWenY8K8Ba" allowfullscreen></iframe>
-                        <p><strong>Réalisateur:</strong> Tom Kapinos</p>
-                        <p><strong>Genre:</strong> Fantastique, Policier</p>
-                        <p><strong>Acteurs:</strong> Tom Ellis, Lauren German</p>
-                        <p><strong>Description:</strong> Lucifer Morningstar, lassé de l'Enfer, s'installe à Los Angeles et ouvre un club...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Modal Film 5 (Jumanji) -->
-        <div class="modal fade" id="filmModal5" tabindex="-1" aria-hidden="true">
-            <div class="modal-dialog modal-lg">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h5 class="modal-title">Jumanji</h5>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
-                    </div>
-                    <div class="modal-body">
-                        <iframe width="100%" height="400px" src="https://www.youtube.com/embed/2QKg5SZ_35I?si=8VgK7vzaYLC83diq" allowfullscreen></iframe>
-                        <p><strong>Réalisateur:</strong> Joe Johnston</p>
-                        <p><strong>Genre:</strong> Aventure, Fantastique</p>
-                        <p><strong>Acteurs:</strong> Robin Williams, Kirsten Dunst</p>
-                        <p><strong>Description:</strong> Deux enfants découvrent un jeu mystérieux qui libère un monde magique et dangereux...</p>
-                    </div>
-                </div>
-            </div>
-        </div>
         
         <!-- CSS -->
         <style>
-            /* Section contenant les boutons et les films alignés */
-            .social-section {
-                position: relative; /* Nécessaire pour que les boutons soient positionnés par rapport à cette section */
-                height: 500px; /* Juste un exemple de hauteur de section */
-                background-color: #f5f5f5; /* Juste pour voir la section */
-                display: flex; /* Aligner les éléments horizontalement */
-            }
-        
-            /* Conteneur des boutons (fixés à gauche de la section seulement) */
             .social-buttons {
-                position: absolute;  /* Fixe les boutons à l'intérieur de la section */
-                top: 50%; /* Positionne au centre verticalement */
-                left: 0;
-                transform: translateY(-50%); /* Ajuste le centrage */
+                position: absolute;
+                top: 50%;
+                left: 10px;
+                transform: translateY(-50%);
                 display: flex;
                 flex-direction: column;
                 gap: 10px;
-                z-index: 1000; /* Toujours au-dessus du contenu de la section */
+                z-index: 10; /* Assure qu'ils restent au-dessus */
             }
-        
-            /* Style des boutons */
+
             .social-btn {
                 display: flex;
                 align-items: center;
-                width: 50px; /* Taille initiale */
+                width: 50px;
                 height: 50px;
                 background: #333;
                 color: white;
@@ -400,67 +215,201 @@
                 font-size: 18px;
                 border-radius: 0 25px 25px 0;
                 padding: 10px;
-                transition: width 0.3s ease-in-out; /* Animation fluide */
+                transition: width 0.3s ease-in-out;
                 overflow: hidden;
                 white-space: nowrap;
                 position: relative;
-                gap: 10px;  /* Espace entre les boutons */
-                z-index: 1000; /* Toujours au-dessus du contenu de la section */
-                margin-right: 20px;
-                
             }
-        
-            /* Icônes */
+
             .social-btn i {
                 width: 30px;
                 text-align: center;
             }
-        
-            /* Effet au survol */
+
             .social-btn:hover {
-                width: 150px; /* Le bouton s'agrandit */
+                width: 150px;
             }
-        
-            /* Couleurs spécifiques */
+            .film-section-wrapper {
+                position: relative;
+                padding-left: 60px;
+            }
+
             .facebook { background: #3b5998; }
             .twitter { background: #1da1f2; }
             .instagram { background: #e4405f; }
             .google { background: #db4437; }
-        
-            /* Styles des images des films */
-            .card-img-top {
-                width: 200;
-                height: 250px; /* Taille réduite des images */
-                object-fit: cover;
-                border-radius: 10px;
-            }
 
-            /* Assurez-vous que les films sont bien alignés sur une ligne */
-            .films-section .row {
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                gap: 20px;  /* Espace entre les images des films */
-                margin-left: 100px;
-                padding-left: 200px; 
-            }
 
-            /* Espacement des films */
-            .col-md-2 {
-                margin-bottom: 20px;
-                max-width: 100%;
-                height: auto;  /* Assure que l'image garde son ratio */
-                object-fit: cover;
-                flex-direction: column;
-
-                            
-            }
-            .film-item img {
-                width: 100%; /* L’image s’adapte au conteneur */
-                height: 100%; /* L’image occupe tout l’espace */
-                object-fit: cover; /* Évite la déformation */
-            }
         </style>
+
+        <!-- Partie 3: Section Films -->
+
+        <!-- Boutons Réseaux Sociaux -->
+
+        <div class="film-section-wrapper">
+            <!-- Boutons Réseaux Sociaux -->
+            <div class="social-buttons">
+                <a href="#" class="social-btn facebook"><i class="fab fa-facebook-f"></i> Facebook</a>
+                <a href="#" class="social-btn twitter"><i class="fab fa-twitter"></i> Twitter</a>
+                <a href="#" class="social-btn instagram"><i class="fab fa-instagram"></i> Instagram</a>
+                <a href="#" class="social-btn google"><i class="fab fa-google"></i> Google</a>
+            </div>
+        
+            <!-- Contenu de la section (films) -->
+            <div class="container mt-5">
+                <h2  style="font-family: 'Algerian', sans-serif; font-size: 50px; color: white; text-shadow: 3px 3px 5px rgb(255, 245, 245); padding: 20px 20px; border-radius: 10px; display: inline-block;">
+                    <span style="color: rgb(11, 11, 12);">Les Hits du</span> <span style="color: rgb(95, 11, 249);">Écran🍿</span>
+                </h2>
+                <div class="row">
+                    <!-- Film 1 -->
+                    <div class="col-md">
+                        <div class="card film-card">
+                            <img src="https://th.bing.com/th/id/OIP.I7Pt5K7mtwLGIiaGXzttigAAAA?rs=1&pid=ImgDetMain" class="card-img-top" alt="Sweethome">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Sweethome</h5>
+                                <p>2024 - Drame Coréen</p>
+                            </div>
+                        </div>
+                    </div>
+                <!-- Film 2 -->
+                <div class="col-md">
+                    <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal2">
+                        <img src="https://image.tmdb.org/t/p/original/uFXEoVPENgKJrkxFWlOhNMDwlEk.jpg" class="card-img-top" alt="Alice in Borderland">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Alice in Borderland</h5>
+                            <p>2021 - Action & Aventure</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Film 3 -->
+                <div class="col-md">
+                    <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal3">
+                        <img src="https://media.senscritique.com/media/000019087799/source_big/Code_8.jpg" class="card-img-top" alt="Code 8">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Code 8</h5>
+                            <p>2019 - Thriller</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Film 4 -->
+                <div class="col-md">
+                    <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal4">
+                        <img src="https://m.media-amazon.com/images/M/MV5BNDJjMzc4NGYtZmFmNS00YWY3LThjMzQtYzJlNGFkZGRiOWI1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" class="card-img-top" alt="Lucifer">
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Lucifer</h5>
+                            <p>2018 - Fantastique</p>
+                        </div>
+                    </div>
+                </div>
+
+                    <!-- Film 5 -->
+                    <div class="col-md">
+                        <div class="card film-card" data-bs-toggle="modal" data-bs-target="#filmModal5">
+                            <img src="https://www.themoviedb.org/t/p/original/inong8C18HmwnKqhzAyPBlOYeLU.jpg" class="card-img-top" alt="Jumanji">
+                            <div class="card-body text-center">
+                                <h5 class="card-title">Jumanji</h5>
+                                <p>1995 - Aventure</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Film 1 -->
+            <div class="modal fade" id="filmModal1" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Sweethome</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PT34ciKiMB4" allowfullscreen></iframe>
+                            <p><strong>Réalisateur:</strong> Lee Eung-bok</p>
+                            <p><strong>Genre:</strong> Drame, Horreur</p>
+                            <p><strong>Acteurs:</strong> Song Kang, Lee Jin-wook</p>
+                            <p><strong>Description:</strong> Une apocalypse transforme les humains en monstres...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Film 2 -->
+            <div class="modal fade" id="filmModal2" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Alice in Borderland</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/49_44FFKZ1M" allowfullscreen></iframe>
+                            <p><strong>Réalisateur:</strong> Shinsuke Sato</p>
+                            <p><strong>Genre:</strong> Action, Science-fiction</p>
+                            <p><strong>Acteurs:</strong> Kento Yamazaki, Tao Tsuchiya</p>
+                            <p><strong>Description:</strong> Des jeunes sont piégés dans un Tokyo alternatif...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Film 3 -->
+            <div class="modal fade" id="filmModal3" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Code 8</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/PrX1JJ5dduA?si=rVGGisxUESLN3oZO" allowfullscreen></iframe>
+                            <p><strong>Réalisateur:</strong> Jeff Chan</p>
+                            <p><strong>Genre:</strong> Thriller, Science-fiction</p>
+                            <p><strong>Acteurs:</strong> Robbie Amell, Stephen Amell</p>
+                            <p><strong>Description:</strong> Un jeune homme doté de pouvoirs tente de survivre...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Modal Film 4 (Lucifer) -->
+            <div class="modal fade" id="filmModal4" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Lucifer</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/ueMwVGBwqRo?si=W3Sx3CgWenY8K8Ba" allowfullscreen></iframe>
+                            <p><strong>Réalisateur:</strong> Tom Kapinos</p>
+                            <p><strong>Genre:</strong> Fantastique, Policier</p>
+                            <p><strong>Acteurs:</strong> Tom Ellis, Lauren German</p>
+                            <p><strong>Description:</strong> Lucifer Morningstar, lassé de l'Enfer, s'installe à Los Angeles et ouvre un club...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Modal Film 5 (Jumanji) -->
+            <div class="modal fade" id="filmModal5" tabindex="-1" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title">Jumanji</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                        </div>
+                        <div class="modal-body">
+                            <iframe width="100%" height="400px" src="https://www.youtube.com/embed/2QKg5SZ_35I?si=8VgK7vzaYLC83diq" allowfullscreen></iframe>
+                            <p><strong>Réalisateur:</strong> Joe Johnston</p>
+                            <p><strong>Genre:</strong> Aventure, Fantastique</p>
+                            <p><strong>Acteurs:</strong> Robin Williams, Kirsten Dunst</p>
+                            <p><strong>Description:</strong> Deux enfants découvrent un jeu mystérieux qui libère un monde magique et dangereux...</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
     </section>
 
     <!-- Section Featured Movies -->
