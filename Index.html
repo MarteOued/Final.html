@@ -674,40 +674,50 @@
             <div class="film-section-wrapper">
                 <!-- Section Films -->
                 <div class="film-list-container">
-                    <h2  style="font-family: 'Algerian', sans-serif; font-size: 50px; color: white; text-shadow: 3px 3px 5px rgb(255, 245, 245);  padding: 20px 20px; border-radius: 10px; display: inline-block;">
+                    <h2 style="font-family: 'Algerian', sans-serif; font-size: 50px; color: white; text-shadow: 3px 3px 5px rgb(255, 245, 245); padding: 20px 20px; border-radius: 10px; display: inline-block;">
                         <span style="color: rgb(4, 2, 8);">Shop</span> <span style="color: rgb(246, 11, 11);">Movie 🎬</span>
                     </h2>
-        
-                    <div style="position: relative; display: flex; align-items: center;">
-                        <button class="film-scroll-btn film-left-btn" onclick="scrollMovies(-1)"><i class="fas fa-chevron-left"></i></button>
-                        <div class="film-scroll-container" id="movies">
-                            <div class="film-item">
-                                <img src="https://th.bing.com/th/id/R.2eba211e2b7a77ba2ea4abbb898a4f82?rik=Ijzd%2fanYbxVgIg&riu=http%3a%2f%2f4.bp.blogspot.com%2f-j1QlKbW0424%2fVPdEvlmnZBI%2fAAAAAAAAAHE%2ff5OSBspz7Z4%2fs1600%2fInception-movie-poster-2.jpg&ehk=3ZToL%2bfnaX27NhhHTzU7vGoX3wVolQ7pAGDWvvsUqe8%3d&risl=&pid=ImgRaw&r=0" alt="Inception">
-                                <p class="title">Inception</p>
-                                <p class="details">2010 - Science-Fiction</p>
-                            </div>
-                            <div class="film-item">
-                                <img src="https://i.pinimg.com/736x/0a/bd/bd/0abdbddd92fbd981457c434096169baa.jpg" alt="Dune">
-                                <p class="title">Dune</p>
-                                <p class="details">2021 - Aventure</p>
-                            </div>
-                            <div class="film-item">
-                                <img src="https://m.media-amazon.com/images/I/91kFYg4fX3L._AC_SY679_.jpg" alt="Interstellar">
-                                <p class="title">Interstellar</p>
-                                <p class="details">2014 - Science-Fiction</p>
-                            </div>
-                            <div class="film-item">
-                                <img src="https://m.media-amazon.com/images/I/71niXI3lxlL._AC_SY679_.jpg" alt="Joker">
-                                <p class="title">Joker</p>
-                                <p class="details">2019 - Thriller</p>
-                            </div>
-                            <div class="film-item">
-                                <img src="\Users\marte\Downloads\batmanmovie-2017-comedie.jpg" alt="The Batman">
-                                <p class="title">The Batman</p>
-                                <p class="details">2022 - Action</p>
-                            </div>
+                    <div class="film-grid">
+                        <div class="movie">
+                            <img src="https://www.cinema.com/image_lib/15865_poster14.jpg" alt="Top Gun">
+                            <p class="title">Top Gun</p>
+                            <p class="details">1986 - Action</p>
                         </div>
-                        <button class="film-scroll-btn film-right-btn" onclick="scrollMovies(1)"><i class="fas fa-chevron-right"></i></button>
+                        <div class="movie">
+                            <img src="https://storage.googleapis.com/finansialku_media/wordpress_media/2022/11/5bd1c4bd-black-adam.-sumber-imdb-1.jpg" alt="Black Adam">
+                            <p class="title">Black Adam</p>
+                            <p class="details">2022 - Action</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://media.senscritique.com/media/000019908728/source_big/Crise.jpg" alt="Crise">
+                            <p class="title">Crise</p>
+                            <p class="details">2019 - Drame</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://fr.web.img3.acsta.net/pictures/16/03/14/17/37/177182.jpg" alt="Une seconde chance">
+                            <p class="title">Une seconde chance</p>
+                            <p class="details">2016 - Drame</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://www.cinetrafic.fr/images/affiches/original/aff_1587020190610160005.jpg" alt="Becky Lynch">
+                            <p class="title">Becky Lynch</p>
+                            <p class="details">2021 - Police</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://web.static-rmg.be/if/c_crop,w_1200,h_1600,x_0,y_0,g_center/c_fit,w_620,h_826/d4710603998e53fbcefa37761085dd6e.jpg" alt="Police">
+                            <p class="title">Police</p>
+                            <p class="details">2020 - Police</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://www.themoviedb.org/t/p/original/pdhOE0NAZaPzjsgTvatRP1xFhG3.jpg" alt="The Avengers">
+                            <p class="title">The Avengers</p>
+                            <p class="details">2012 - Action, Science-fiction</p>
+                        </div>
+                        <div class="movie">
+                            <img src="https://th.bing.com/th/id/OIP.vcgpjxcMOiZ-5OHIUB-fTAHaJ4?rs=1&pid=ImgDetMain" alt="Spider-Man">
+                            <p class="title">Spider-Man: No Way Home</p>
+                            <p class="details">2021 - Action, Science-fiction</p>
+                        </div>
                     </div>
                 </div>
         
@@ -718,93 +728,47 @@
                     </video>
                 </div>
             </div>
-
-            <!-- Script JavaScript -->
-            <script>
-                function scrollMovies(direction) {
-                    let container = document.getElementById("movies");
-                    let scrollAmount = 300;
         
-                    container.scrollBy({
-                        left: direction * scrollAmount,
-                        behavior: "smooth"
-                    });
-                }
-            </script>
-
             <!--CSS-->
             <style>
-                /* --- Conteneur Principal : Films + Vidéo --- */
                 .film-section-wrapper {
                     display: flex;
-                    align-items: center;
+                    align-items: flex-start;
                     justify-content: center;
                     gap: 30px;
-                    flex-wrap: wrap;
                     padding: 20px;
                 }
-    
-                .film-list-container {
-                    display: flex;
-                    flex-direction: column;
-                    align-items: flex-start;
-                    gap: 20px;
-                }
-    
-                .film-list-title {
-                    margin-left: 20px;
-                    font-size: 24px;
-                    font-weight: bold;
-                }
-    
-                .film-scroll-container {
-                    display: flex;
+                .film-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
                     gap: 15px;
-                    overflow-x: auto;
-                    padding: 10px;
                     max-width: 800px;
-                    scroll-behavior: smooth;
                 }
-    
-                .film-item {
+                .movie {
                     text-align: center;
-                    flex: 0 0 auto;
-                    display: inline-block;
                 }
-    
-                .film-item img {
-                    width: 250px; 
-                    height: 350px; 
+                .movie img {
+                    width: 180px;
+                    height: 250px;
                     object-fit: cover;
                     border-radius: 10px;
                 }
-    
-                /* --- Flèches de Navigation --- */
-                .film-scroll-btn {
-                    display: none;
-                }
-    
-                .film-scroll-btn:hover {
-                    background: #ff1a1a;
-                }
-    
-                .film-left-btn { left: -40px; }
-                .film-right-btn { right: -40px; }
-    
-                /* --- Conteneur Vidéo --- */
+        
                 .video-section {
                     flex: 1;
-                    max-width: 500px;
+                    max-width: 800px;
+                    margin-top: 180px;
                 }
-    
+        
                 .film-video {
                     width: 100%;
-                    height: 350px; 
+                    height: 520px;
                     object-fit: cover;
                     border-radius: 10px;
                 }
             </style>
         </section>
+        
 
         <!-- Partie 6:  Section Contact Us -->
 
